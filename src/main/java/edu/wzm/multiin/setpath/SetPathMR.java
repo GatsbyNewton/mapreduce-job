@@ -28,6 +28,7 @@ public class SetPathMR {
     }
 
     public static class SetPathReducer extends Reducer<Text, IntWritable, Text, LongWritable>{
+
         private LongWritable count = new LongWritable();
 
         @Override
